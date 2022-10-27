@@ -39,4 +39,5 @@ def usd_to_eur(usd):
 
 # Hint: inside the created function, you should use string methods already seen.
 
-def reverse_word
+def reverse_word(words):
+  

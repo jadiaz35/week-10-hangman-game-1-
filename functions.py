@@ -1,5 +1,4 @@
-def welcome(name):
-  print("welcome " + name)
+
 
 
 def add_numbers(num1,num2):
@@ -9,8 +8,8 @@ def add_numbers(num1,num2):
 def num_dividedFrom_add_numbers(num, addedNum):
   return num/addedNum
 
-def function():
-  pass
+# def function():
+#   pass
   
 
   
@@ -19,6 +18,10 @@ def function():
   
   # You should only define the function, you should not call it later.
 
+greet = "Hello World!"
+
+def greet1():
+  print(greet)
 
 
 
@@ -30,7 +33,8 @@ def function():
 
 # You should only define the function and create the variable, you should not call the function afterwards.
 
-
+def welcome(name):
+  print("welcome " + name)
 
 ########################################################################################################################
 # Create Functions Practice #3
@@ -39,3 +43,6 @@ def function():
 # The name of the argument that this function must take is number. Create this variable and assign it any number.
 
 # You should only define the function and create the variable, you should not call the function afterwards.
+
+def square(num):
+  return num*num 

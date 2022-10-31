@@ -20,5 +20,5 @@ from dynamic_functions import check_3Digits
 # euro = usd_to_eur(10)
 # print(euro)
 # sum = 526 + 345
-result = check_3Digits([55, 99, 6000])
+result = check_3Digits([55, 99, 600, 8, 9457, 795])
 print(result)

@@ -1,7 +1,8 @@
 #from methods_help import method_help
 # from functions import welcome, add_numbers, num_dividedFrom_add_numbers, greet1, square
 # from returnStuff import returnS, power, usd_to_eur
-from dynamic_functions import check_3Digits
+
+from dynamic_functions import check_3Digits, all_positives
 
 
 #method_help()
@@ -20,5 +21,9 @@ from dynamic_functions import check_3Digits
 # euro = usd_to_eur(10)
 # print(euro)
 # sum = 526 + 345
+
 result = check_3Digits([55, 99, 600, 8, 9457, 795])
 print(result)
+
+positives = all_positives([-55, 99, 600, 8, 9457, 795])
+print(positives)

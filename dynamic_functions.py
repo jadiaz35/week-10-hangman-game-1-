@@ -1,4 +1,6 @@
-def dynamic():
+def check_3Digits(number):
+  return number in range(100, 1000)
+  # pass
   
 ########################################################################################################################
 # Dynamic Functions Practice #1

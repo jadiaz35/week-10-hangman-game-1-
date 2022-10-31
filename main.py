@@ -1,7 +1,7 @@
 #from methods_help import method_help
 # from functions import welcome, add_numbers, num_dividedFrom_add_numbers, greet1, square
 # from returnStuff import returnS, power, usd_to_eur
-from dynamic_functions import dynamic
+from dynamic_functions import check_3Digits
 
 
 #method_help()
@@ -19,4 +19,5 @@ from dynamic_functions import dynamic
 # print(exponents)
 # euro = usd_to_eur(10)
 # print(euro)
-dynamic()
+result = check_3Digits(658)
+print(result)

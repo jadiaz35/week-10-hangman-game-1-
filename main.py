@@ -2,8 +2,8 @@
 # from functions import welcome, add_numbers, num_dividedFrom_add_numbers, greet1, square
 # from returnStuff import returnS, power, usd_to_eur
 
-from dynamic_functions import check_3Digits, all_positives
-
+# from dynamic_functions import check_3Digits, all_positives
+from function_interactions import mix_sticks
 
 #method_help()
 # function()
@@ -22,8 +22,11 @@ from dynamic_functions import check_3Digits, all_positives
 # print(euro)
 # sum = 526 + 345
 
-result = check_3Digits([55, 99, 600, 8, 9457, 795])
-print(result)
+# result = check_3Digits([55, 99, 600, 8, 9457, 795])
+# print(result)
 
-positives = all_positives([-55, 99, 600, 8, 9457, 795])
-print(positives)
+# positives = all_positives([-55, 99, 600, 8, 9457])
+# print(positives)
+sticks = ["-","--","---","----","-----"]
+my_mix = mix_sticks(sticks)
+print(my_mix)
